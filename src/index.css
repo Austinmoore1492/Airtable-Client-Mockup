@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: radial-gradient(ellipse at bottom, #4c4c4c 0%, #191919 95%);
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  margin: auto;
+}
+
+.inverted {
+  max-width: 200px;
+}
+
+@media(max-width: 820px){
+  .hero-section{
+    min-height: 110vh;
+  }
+}
